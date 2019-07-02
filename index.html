@@ -58,7 +58,7 @@
     color:white;
     display:block;
     border-radius: 5px;
-    margin:10px 0px;
+    margin:10px 0px 30px;
     padding:10px 0px;
   }
   .TCP{
@@ -68,7 +68,8 @@
     text-decoration: none;
     color:royalblue;
   }
-  label{
+  .info label{
+    display:block;
     color:black;
   }
 </style>
@@ -79,17 +80,17 @@
       <h1>Sign Up</h1>
       <p>It's free and takes only a minute</p>
       <form action="./action.php"class="info">
-        <label for="first_name">First Name</label><br>
-        <input type="text" name="First Name" id="first_name" class="input_field" required><br>
-        <label for="last_name">Last Name</label><br>
-        <input type="text" class="input_field" name="Last Name" id="last_name" required ><br>
-        <label for="email">Email</label><br>
-        <input type="email" class="input_field" name="Email-id" id="email" required><br>
-        <label for="pass">Password</label><br>
-        <input type="password" class="input_field" name="Password" id="pass" required><br>
-        <label for="pass_2">Confirm Password</label><br>
-        <input type="password" class="input_field" name="PassWord2" id="pass_2" required><br>
-        <button type="submit" id="sign" >Sign Up</button><br>
+        <label for="first_name">First Name</label>
+        <input type="text" name="First Name" id="first_name" class="input_field" required>
+        <label for="last_name">Last Name</label>
+        <input type="text" class="input_field" name="Last Name" id="last_name" required >
+        <label for="email">Email</label>
+        <input type="email" class="input_field" name="Email-id" id="email" required>
+        <label for="pass">Password</label>
+        <input type="password" class="input_field" name="Password" id="pass" required>
+        <label for="pass_2">Confirm Password</label>
+        <input type="password" class="input_field" name="PassWord2" id="pass_2" required>
+        <button type="submit" id="sign" >Sign Up</button>
         <p class="TCP">By clicking the Sign Up button,you agree to our<br><a href="#">Terms & Conditions</a> and <a href="#">Privacy Policy</a> </p>
     </form>
   </div>
