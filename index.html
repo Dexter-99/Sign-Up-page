@@ -34,14 +34,7 @@
     margin-top:8px;
     margin-bottom: 24px;
   }
-  #container2 p{
-    color:white;
-    text-align:center;
-  }
-  #container2 a{
-    color:#26A69A;
-    text-decoration:none;
-  }
+  
   .input_field{
     margin-top:3px;
     border:1px solid #BDBDBD;
@@ -82,7 +75,8 @@
     <div id="container1">
       <h1>Sign Up</h1>
       <p>It's free and takes only a minute</p>
-      <form action="./action.php"class="info">
+      <!-- Replace your action attribute url with the url of your form processor file and in the same file redirect it to the url of confirmation page -->
+      <form action="./confirmation_page.html" class="info" >
         <label for="first_name">First Name</label>
         <input type="text" name="First Name" id="first_name" class="input_field" required>
         <label for="last_name">Last Name</label>
@@ -93,12 +87,9 @@
         <input type="password" class="input_field" name="Password" id="pass" required>
         <label for="pass_2">Confirm Password</label>
         <input type="password" class="input_field" name="PassWord2" id="pass_2" required>
-        <button type="submit" id="sign" >Sign Up</button>
-        <p class="TCP">By clicking the Sign Up button,you agree to our<br><a href="#">Terms & Conditions</a> and <a href="#">Privacy Policy</a> </p>
-    </form>
-  </div>
-  <div id="container2">
-    <p>Already Have an account?<a href="#">Login Here</a></p>
+        <button type="submit" id="sign">Sign Up</button> 
+        <p class="TCP">By clicking the Sign Up button,you agree to our<br><a href="">Terms & Conditions</a> and <a href="">Privacy Policy</a> </p>
+      </form>
   </div>
  </div> 
 </body>
